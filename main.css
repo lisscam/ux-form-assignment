@@ -1,0 +1,115 @@
+
+/*  Put your CSS Here */
+
+.register {
+    width: 100%;
+    min-width: 100%;
+    padding: 15px;
+
+    background-color: #ffffff;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.register__wrapper {
+    width: 1163px;
+    max-height: 1000px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+
+    
+    color: #ffffff;
+}
+
+.register__image {
+    height: 100vh;
+    width: 100%;
+    background: url('/images/bg-heading-03.jpg') no-repeat center; 
+    background-size: cover;
+}
+
+.register__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10% 0px 10%;
+    
+}
+.register__header {
+    display: block;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+.register__details input {
+    color: white;
+    background: transparent;
+    font-size: 16px;
+    height: 20px;
+    padding: 10px 5px 15px 0px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.register__details input::placeholder {
+    color: lightgray;
+}
+
+#experience {
+    background-color: transparent;
+    color: lightgray;
+    font-size: 16px;
+    border-radius: 0;
+    padding: 0px 0px 8px 0px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    background-color: rgb(77, 167, 77);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+    width: 120px;
+    font-size: 16px;
+}
+
+
+@media (max-width: 500px) {
+   
+        .register__wrapper {
+            border-radius: 10px;
+
+            display: flex;
+            flex-wrap: wrap; 
+            align-items: center;
+            flex-direction: column;
+            
+            color: #ffffff;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        .register__details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10% 10% 10% 10%;
+            width: 100%;
+        }
+        .register__image {
+            height: 45vh;
+            width: 100%;
+        }
+}

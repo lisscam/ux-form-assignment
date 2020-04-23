@@ -18,12 +18,59 @@
 
     <!-- CSS-->
     <link href="css/base.css" rel="stylesheet" media="all">
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="main.css" rel="stylesheet" media="all">
 </head>
 
 <body>
 
     <!-- Your html here -->
+    <div class="register">
+        <div class="register__wrapper">
+
+            <div class="register__image">
+                <!-- <img src="images/bg-heading-03.jpg" /> -->
+            </div>
+        
+                <form class="register__details">
+        
+                    <span class="register__header">
+                        <h2>Registration Info</h2>
+                    </span>
+        
+                    <div class="register__name">
+                        <input id="name" type="text" placeholder="Name"></input>
+                    </div>
+            
+                    <div class="register__birth">
+                        <input id="birth" type="text" placeholder="mm/dd/yyyy"></input>
+                    </div>
+            
+                    <div class="register__experience">
+                        <select select id="experience" name="experience">
+                            <option value="experience" disabled selected>Experience</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                    </div>
+            
+                    <div class="register__email">
+                        <input id="email" type="text" placeholder="Email"></input>
+                    </div>
+            
+                    <div class="register__phone">
+                        <input id="phone" type="text" placeholder="Phone(Optional)"></input>
+                    </div>
+            
+                    <div class="register__btn">
+                        <button type="submit"> Submit </button>
+                    </div>
+                </form>
+        
+        </div>
+    </div>
+
+    
 </body>
 
 </html>
